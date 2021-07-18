@@ -185,9 +185,7 @@ function maxLengthCheck(obj) {
 	</tbody>
 </table>
 <hr>
-<h3>리워드 입력</h3>
-<!-- 아래와 같은 html이 있으면, 추가버튼을 클릭하면 room_type이란 id를 가진 div를 복사하여
-field란 id를 가진 div에 생성해주는 소스입니다.-->		 
+<h3>리워드 입력</h3>	 
 <div id="room_type">
 	<div class="form-group">
 	<label for="image">리워드</label>
