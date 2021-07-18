@@ -62,7 +62,7 @@ public class FundingController {
 		funding.Data();
 		
 		//System.out.println("getBoard DB funding: " + funding);
-		model.addAttribute("funding", funding); // fundingDetail.jsp에서 funding.~ 이렇게 사용
+		model.addAttribute("funding", funding); 
 
 		// rname=reward name
 		String rname = fundingService.getRewardName(allvo.getProduct_no());
@@ -120,7 +120,6 @@ public class FundingController {
 		
 		List<String> list = new ArrayList<>();
 		
-		//펀딩 오픈할 때 리워드 10개 이하로만 입력해야 함,,
 		for(int i=0; i<10; i++) {
 			if(request.getParameter("list"+i) != null) {
 				list.add(request.getParameter("list"+i));
